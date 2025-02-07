@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #6200ea;
+    --secondary-color: #03dac6;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --error-color: #b00020;
+    --font-family: 'Arial', sans-serif;
+}
+
+.dark-theme {
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --error-color: #cf6679;
+}
+
+.light-theme {
+    --primary-color: #6200ea;
+    --secondary-color: #03dac6;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --error-color: #b00020;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.error-message {
+    color: var(--error-color);
+}
